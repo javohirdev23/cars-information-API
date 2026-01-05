@@ -1,4 +1,7 @@
 let elSearch = document.getElementById("search");
+let elError = document.getElementById("error");
+
+setTimeout(elError, 3000);
 
 let elementsArray = [];
 fetch("https://json-api.uz/api/project/fn44-amaliyot/cars")
